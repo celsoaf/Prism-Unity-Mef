@@ -20,7 +20,7 @@ namespace PrismUnity
 
             ModuleCatalog catalog = (ModuleCatalog)this.ModuleCatalog;
 
-            //catalog.AddModule(typeof(Backup.BackupModule));
+            catalog.AddModule(typeof(PrismUnity.Module1.Module1Module));
         }
 
         protected override DependencyObject CreateShell()
