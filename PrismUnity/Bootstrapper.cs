@@ -8,6 +8,7 @@ using System.Windows;
 using PrismUnity.Views.Shell;
 using Microsoft.Practices.Prism.Modularity;
 using PrismUnity.Controllers;
+using PrismUnity.Views.Bottom;
 
 namespace PrismUnity
 {
@@ -48,16 +49,8 @@ namespace PrismUnity
             Container.RegisterType<IShellView, ShellView>();
             Container.RegisterType<IShellViewModel, ShellViewModel>();
 
-            //Container.RegisterType<IRoadView, RoadView>();
-            //Container.RegisterType<ILeftView, LeftView>();
-
-            //Container.RegisterType<IRightView, RightView>();
-            //Container.RegisterType<ITopView, TopView>();
-
-            //Container.RegisterType<IRoadViewModel, RoadViewModel>();
-            //Container.RegisterType<ILeftViewModel, LeftViewModel>();
-            //Container.RegisterType<IRightViewModel, RightViewModel>();
-            //Container.RegisterType<ITopViewModel, TopViewModel>();
+            Container.RegisterType<IBottomView, BottomView>();
+            Container.RegisterType<IBottomViewModel, BottomViewModel>();
         }
 
         protected override void InitializeModules()

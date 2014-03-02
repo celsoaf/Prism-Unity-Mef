@@ -8,7 +8,6 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition />
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -26,16 +25,13 @@
             </ribbon:Ribbon.ApplicationMenu>
         </ribbon:Ribbon>
 
-        <ContentControl Grid.Row="1" Grid.ColumnSpan="2" 
-                                cal:RegionManager.RegionName="{x:Static infrastructure:RegionNames.TopRegion}"/>
-
-        <ContentControl Grid.Row="2" Grid.Column="0" 
+        <ContentControl Grid.Row="1" Grid.Column="0" 
                                 cal:RegionManager.RegionName="{x:Static infrastructure:RegionNames.LeftRegion}"/>
-        <GridSplitter ResizeDirection="Columns" Grid.Row="2" Width="4" />
-        <ContentControl Grid.Row="2" Grid.Column="1" 
+        <GridSplitter ResizeDirection="Columns" Grid.Row="1" Width="4" />
+        <ContentControl Grid.Row="1" Grid.Column="1" 
                                 cal:RegionManager.RegionName="{x:Static infrastructure:RegionNames.RightRegion}"/>
 
-        <ContentControl Grid.Row="3" Grid.ColumnSpan="2" 
+        <ContentControl Grid.Row="2" Grid.ColumnSpan="2" 
                                 cal:RegionManager.RegionName="{x:Static infrastructure:RegionNames.BottomRegion}"/>
     </Grid>
 </ribbon:RibbonWindow>

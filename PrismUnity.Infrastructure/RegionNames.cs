@@ -7,7 +7,6 @@ namespace PrismUnity.Infrastructure
 {
     public static class RegionNames
     {
-        public const string TopRegion = "TopRegion";
         public const string LeftRegion = "LeftRegion";
         public const string RightRegion = "RightRegion";
         public const string BottomRegion = "BottomRegion";
