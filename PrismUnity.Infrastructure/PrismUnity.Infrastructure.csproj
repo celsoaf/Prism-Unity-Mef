@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Events\ExitApplicationEvent.cs" />
+    <Compile Include="Events\ItemSelectedEvent.cs" />
     <Compile Include="RegionNames.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

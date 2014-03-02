@@ -8,5 +8,7 @@ namespace PrismUnity.Views.StatusBar
     public interface IStatusBarViewModel
     {
         IStatusBarView View { get; set; }
+
+        string Status { get; set; }
     }
 }
