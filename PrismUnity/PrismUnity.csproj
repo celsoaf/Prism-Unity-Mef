@@ -99,12 +99,12 @@
       <DependentUpon>ShellView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Shell\ShellViewModel.cs" />
-    <Compile Include="Views\Bottom\IBottomView.cs" />
-    <Compile Include="Views\Bottom\IBottomViewModel.cs" />
-    <Compile Include="Views\Bottom\BottomView.xaml.cs">
-      <DependentUpon>BottomView.xaml</DependentUpon>
+    <Compile Include="Views\StatusBar\IStatusBarView.cs" />
+    <Compile Include="Views\StatusBar\IStatusBarViewModel.cs" />
+    <Compile Include="Views\StatusBar\StatusBarView.xaml.cs">
+      <DependentUpon>StatusBarView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Bottom\BottomViewModel.cs" />
+    <Compile Include="Views\StatusBar\StatusBarViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -137,7 +137,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Bottom\BottomView.xaml">
+    <Page Include="Views\StatusBar\StatusBarView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

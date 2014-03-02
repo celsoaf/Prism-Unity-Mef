@@ -8,7 +8,7 @@ using System.Windows;
 using PrismUnity.Views.Shell;
 using Microsoft.Practices.Prism.Modularity;
 using PrismUnity.Controllers;
-using PrismUnity.Views.Bottom;
+using PrismUnity.Views.StatusBar;
 
 namespace PrismUnity
 {
@@ -49,8 +49,8 @@ namespace PrismUnity
             Container.RegisterType<IShellView, ShellView>();
             Container.RegisterType<IShellViewModel, ShellViewModel>();
 
-            Container.RegisterType<IBottomView, BottomView>();
-            Container.RegisterType<IBottomViewModel, BottomViewModel>();
+            Container.RegisterType<IStatusBarView, StatusBarView>();
+            Container.RegisterType<IStatusBarViewModel, StatusBarViewModel>();
         }
 
         protected override void InitializeModules()

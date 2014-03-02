@@ -12,14 +12,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PrismUnity.Views.Bottom
+namespace PrismUnity.Views.StatusBar
 {
     /// <summary>
     /// Interaction logic for TopView.xaml
     /// </summary>
-    public partial class BottomView : UserControl, IBottomView
+    public partial class StatusBarView : UserControl, IStatusBarView
     {
-        public BottomView()
+        public StatusBarView()
         {
             InitializeComponent();
         }

@@ -7,7 +7,7 @@ using Microsoft.Practices.Prism.Events;
 using PrismUnity.Infrastructure.Events;
 using Microsoft.Practices.Prism.Regions;
 using PrismUnity.Infrastructure;
-using PrismUnity.Views.Bottom;
+using PrismUnity.Views.StatusBar;
 
 namespace PrismUnity.Controllers
 {
@@ -28,7 +28,7 @@ namespace PrismUnity.Controllers
 
             _regionManager.RegisterViewWithRegion(
                 RegionNames.BottomRegion,
-                () => _container.Resolve<IBottomViewModel>().View);
+                () => _container.Resolve<IStatusBarViewModel>().View);
 
             _eventAggregator.GetEvent<ExitApplicationEvent>().Subscribe(obj =>
                 {

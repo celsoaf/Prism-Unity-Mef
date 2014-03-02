@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PrismUnity.Views.Bottom
+namespace PrismUnity.Views.StatusBar
 {
-    public interface IBottomView
+    public interface IStatusBarView
     {
         object DataContext { get; set; }
     }
