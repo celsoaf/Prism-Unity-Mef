@@ -9,20 +9,50 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mef", "Mef", "{509862FF-C8F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{2455737D-2FFE-4C2A-BBE0-D16C09E039AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnity.Infrastructure", "PrismUnity.Infrastructure\PrismUnity.Infrastructure.csproj", "{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9467A108-0AFE-4DDB-9E51-434EE23CFC76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|x86.ActiveCfg = Debug|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|x86.Build.0 = Debug|x86
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|Any CPU.ActiveCfg = Release|x86
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|Mixed Platforms.Build.0 = Release|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|x86.ActiveCfg = Release|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|x86.Build.0 = Release|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|x86.ActiveCfg = Debug|x86
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|x86.Build.0 = Debug|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|Any CPU.ActiveCfg = Release|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|Mixed Platforms.Build.0 = Release|x86
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|x86.ActiveCfg = Release|x86
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|x86.Build.0 = Release|x86
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +60,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95} = {509862FF-C8F1-4029-B2CB-F8A45B64BE32}
 		{32A4AC58-D704-4138-B07E-4577D36F2A80} = {2455737D-2FFE-4C2A-BBE0-D16C09E039AC}
+		{9467A108-0AFE-4DDB-9E51-434EE23CFC76} = {2455737D-2FFE-4C2A-BBE0-D16C09E039AC}
+		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066} = {9467A108-0AFE-4DDB-9E51-434EE23CFC76}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
