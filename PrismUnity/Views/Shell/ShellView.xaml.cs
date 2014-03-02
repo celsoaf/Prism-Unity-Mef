@@ -10,13 +10,14 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Windows.Controls.Ribbon;
 
 namespace PrismUnity.Views.Shell
 {
     /// <summary>
     /// Interaction logic for ShellView.xaml
     /// </summary>
-    public partial class ShellView : Window, IShellView
+    public partial class ShellView : RibbonWindow, IShellView
     {
         public ShellView()
         {
