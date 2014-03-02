@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnity.Module1", "PrismUnity.Module1\PrismUnity.Module1.csproj", "{E0565261-A93B-4655-A030-D65CAAFFA518}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnity.Module2", "PrismUnity.Module2\PrismUnity.Module2.csproj", "{FF227FE0-E184-4467-878B-712BC090F85E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,16 @@ Global
 		{E0565261-A93B-4655-A030-D65CAAFFA518}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E0565261-A93B-4655-A030-D65CAAFFA518}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E0565261-A93B-4655-A030-D65CAAFFA518}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FF227FE0-E184-4467-878B-712BC090F85E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +108,7 @@ Global
 		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95} = {509862FF-C8F1-4029-B2CB-F8A45B64BE32}
 		{8EABDA79-5DC1-4283-81C1-CB8B4D0A4066} = {9467A108-0AFE-4DDB-9E51-434EE23CFC76}
 		{E0565261-A93B-4655-A030-D65CAAFFA518} = {9467A108-0AFE-4DDB-9E51-434EE23CFC76}
+		{FF227FE0-E184-4467-878B-712BC090F85E} = {9467A108-0AFE-4DDB-9E51-434EE23CFC76}
 		{A7EC4FEF-34EC-4713-9F59-4DF0AA581B58} = {571522B3-CE67-4B21-831E-64FB2A5EBDCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

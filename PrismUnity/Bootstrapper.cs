@@ -21,6 +21,7 @@ namespace PrismUnity
             ModuleCatalog catalog = (ModuleCatalog)this.ModuleCatalog;
 
             catalog.AddModule(typeof(PrismUnity.Module1.Module1Module));
+            catalog.AddModule(typeof(PrismUnity.Module2.Module2Module));
         }
 
         protected override DependencyObject CreateShell()
