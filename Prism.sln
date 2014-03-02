@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnity", "PrismUnity\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMEF", "PrismMEF\PrismMEF.csproj", "{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mef", "Mef", "{509862FF-C8F1-4029-B2CB-F8A45B64BE32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{2455737D-2FFE-4C2A-BBE0-D16C09E039AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -22,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95} = {509862FF-C8F1-4029-B2CB-F8A45B64BE32}
+		{32A4AC58-D704-4138-B07E-4577D36F2A80} = {2455737D-2FFE-4C2A-BBE0-D16C09E039AC}
 	EndGlobalSection
 EndGlobal
