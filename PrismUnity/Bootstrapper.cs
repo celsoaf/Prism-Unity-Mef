@@ -28,11 +28,15 @@ namespace PrismUnity
         {
             var shell = Container.Resolve<IShellViewModel>();
 
-            var view = shell.View as Window;
+            return shell.View as DependencyObject;
+        }
 
-            view.Show();
+        protected override void InitializeShell()
+        {
+            base.InitializeShell();
 
-            return view;
+            Application.Current.MainWindow = (Window)this.Shell;
+            Application.Current.MainWindow.Show();
         }
 
         protected override void ConfigureContainer()
