@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnity", "PrismUnity\PrismUnity.csproj", "{32A4AC58-D704-4138-B07E-4577D36F2A80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMEF", "PrismMEF\PrismMEF.csproj", "{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Debug|x86.Build.0 = Debug|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|x86.ActiveCfg = Release|x86
 		{32A4AC58-D704-4138-B07E-4577D36F2A80}.Release|x86.Build.0 = Release|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|x86.ActiveCfg = Debug|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Debug|x86.Build.0 = Debug|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|x86.ActiveCfg = Release|x86
+		{A6EDAC43-F418-4073-BF93-1D7A7CC78D95}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
