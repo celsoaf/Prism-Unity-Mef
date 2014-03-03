@@ -134,6 +134,14 @@
       <Project>{54082698-6829-416E-8865-69B1FDCBDAC2}</Project>
       <Name>PrismMEF.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PrismMEF.Module1\PrismMEF.Module1.csproj">
+      <Project>{73A37F79-3AB1-4E9F-AA3E-4883A313352E}</Project>
+      <Name>PrismMEF.Module1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrismMEF.Module2\PrismMEF.Module2.csproj">
+      <Project>{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}</Project>
+      <Name>PrismMEF.Module2</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

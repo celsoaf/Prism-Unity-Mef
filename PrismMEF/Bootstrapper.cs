@@ -18,7 +18,12 @@ namespace PrismMEF
         {
             base.ConfigureAggregateCatalog();
 
-            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(Bootstrapper).Assembly));
+            this.AggregateCatalog.Catalogs.Add(
+                new AssemblyCatalog(typeof(Bootstrapper).Assembly));
+            this.AggregateCatalog.Catalogs.Add(
+                new AssemblyCatalog(typeof(PrismMEF.Module1.Module1Module).Assembly));
+            this.AggregateCatalog.Catalogs.Add(
+                new AssemblyCatalog(typeof(PrismMEF.Module2.Module2Module).Assembly));
         }
 
         protected override DependencyObject CreateShell()

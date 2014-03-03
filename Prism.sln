@@ -32,6 +32,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{38F8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMEF.Infrastructure", "PrismMEF.Infrastructure\PrismMEF.Infrastructure.csproj", "{54082698-6829-416E-8865-69B1FDCBDAC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMEF.Module1", "PrismMEF.Module1\PrismMEF.Module1.csproj", "{73A37F79-3AB1-4E9F-AA3E-4883A313352E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMEF.Module2", "PrismMEF.Module2\PrismMEF.Module2.csproj", "{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +116,26 @@ Global
 		{54082698-6829-416E-8865-69B1FDCBDAC2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{54082698-6829-416E-8865-69B1FDCBDAC2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{54082698-6829-416E-8865-69B1FDCBDAC2}.Release|x86.ActiveCfg = Release|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +150,8 @@ Global
 		{FF227FE0-E184-4467-878B-712BC090F85E} = {9467A108-0AFE-4DDB-9E51-434EE23CFC76}
 		{A7EC4FEF-34EC-4713-9F59-4DF0AA581B58} = {571522B3-CE67-4B21-831E-64FB2A5EBDCD}
 		{54082698-6829-416E-8865-69B1FDCBDAC2} = {38F8A3F3-78CD-48E6-84AD-8358B0B3B66E}
+		{73A37F79-3AB1-4E9F-AA3E-4883A313352E} = {38F8A3F3-78CD-48E6-84AD-8358B0B3B66E}
+		{C1084BD5-BBA7-4559-8905-0C2C89FD5CA1} = {38F8A3F3-78CD-48E6-84AD-8358B0B3B66E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
