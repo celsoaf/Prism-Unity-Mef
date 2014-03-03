@@ -7,6 +7,8 @@ using System.Windows;
 using Microsoft.Practices.Prism.Modularity;
 using PrismMEF.Views.Shell;
 using System.ComponentModel.Composition.Hosting;
+using PrismMEF.Controllers;
+using System.ComponentModel.Composition;
 
 namespace PrismMEF
 {
@@ -32,6 +34,13 @@ namespace PrismMEF
 
             Application.Current.MainWindow = (Window)this.Shell;
             Application.Current.MainWindow.Show();
+        }
+
+        protected override void InitializeModules()
+        {
+            base.InitializeModules();
+
+            Container.GetExportedValue<IPrismMEFController>();
         }
     }
 }
