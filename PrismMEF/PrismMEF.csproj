@@ -87,12 +87,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Controllers\IPrismMEFController.cs" />
+    <Compile Include="Controllers\PrismMEFController.cs" />
     <Compile Include="Views\Shell\IShellView.cs" />
     <Compile Include="Views\Shell\IShellViewModel.cs" />
     <Compile Include="Views\Shell\ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Shell\ShellViewModel.cs" />
+    <Compile Include="Views\StatusBar\IStatusBarView.cs" />
+    <Compile Include="Views\StatusBar\IStatusBarViewModel.cs" />
+    <Compile Include="Views\StatusBar\StatusBarView.xaml.cs">
+      <DependentUpon>StatusBarView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatusBar\StatusBarViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
@@ -127,11 +135,13 @@
       <Name>PrismMEF.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Page Include="Views\Shell\ShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StatusBar\StatusBarView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
